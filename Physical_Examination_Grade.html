@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>신검 등급</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <style>
             body {
                 font-size: 20px;
@@ -11,11 +12,90 @@
                 text-align: center;
                 top: 25%;
             }
+            #wrap{
+                padding: 100px;
+            }
+            .table {
+                text-align: center;
+                text
+            }
         </style>
     </head>
     <body>
-        <div id="div1">
-            
+        <div id="wrap">
+            <div>
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">등급표</th>
+                      <th scope="col">1급</th>
+                      <th scope="col">2급</th>
+                      <th scope="col">3급</th>
+                      <th scope="col">4급</th>
+                      <th scope="col">5급</th>
+                      <th scope="col">6급</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>140 이하</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>체중과<br>관계없이<br>6급</td>
+                    </tr>
+                    <tr>
+                      <td>141 ~ 145</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>체중과<br>관계없이<br>5급</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>146 ~ 158</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>체중과<br>관계없이<br>4급</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>159 ~ 160</td>
+                      <td></td>
+                      <td></td>
+                      <td>16 ~ 34.9</td>
+                      <td>16 미만,<br>35 이상</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>161 ~ 203</td>
+                      <td>20 ~ 24.9</td>
+                      <td>25 ~ 29.9 <br> 18.5 ~ 19.9</td>
+                      <td>30 ~ 34.9 <br> 16 ~ 18.4</td>
+                      <td>16 미만,<br>35 이상</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>204 이상</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>체중과<br>관계없이<br>4급</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>  
+            </div>
+            <div id="div1">
+            </div>
         </div>
         <script type=text/javascript>
             alert('당신의 신체 검사 등급을 알려드립니다.');
